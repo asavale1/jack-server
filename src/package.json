@@ -1,0 +1,16 @@
+{
+  "name": "api-jack",
+  "version": "1.0.0",
+  "description": "Api used by JACK to control the IR Emitter and IR Receiver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "savale",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.30",
+    "node-ssdp": "^3.2.1",
+    "restify": "^4.3.0"
+  }
+}

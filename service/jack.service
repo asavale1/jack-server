@@ -1,0 +1,14 @@
+[Unit]
+Description=JACK Service
+After=multi-user.target
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=jack
+ 
+[Service]
+Type=simple
+ExecStart=/opt/jack/bin/jack
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target
